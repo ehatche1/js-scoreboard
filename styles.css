@@ -1,7 +1,19 @@
 body {
     margin: 0;
     text-align: center;
-   
+
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    line-height: 1.5;
+    padding-bottom: 50px;
+}
+
+h3 {
+    font-size: 40px;
+    color: #E5E5E5;
 }
 
 .score {
@@ -10,18 +22,32 @@ body {
     color: #F94F6D;
     width: 120px;
     margin: 20px;
+    border-radius: 5px;
+    font-family: sans-serif;
 }
 
 .container {
+ 
     display: flex;
     justify-content: space-around;
     padding: 100px;
-   background: skyblue;
-   
+   background: #1b244a;
+ 
   
+}
+
+.col {
+    gap: 5px;
 }
 
 button {
     background: none;
-    
+    color: #9AABD8;
+    border-radius: 10px;
+   padding: 10px;
+   margin: 2px;
+    margin-top: 30px;
+    font-size: 25px;
+    border: 1px solid #9AABD8;
+    font-family: sans-serif;
 }
